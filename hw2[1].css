@@ -1,0 +1,70 @@
+.container {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  background-color: red;
+  border: 1px solid black;
+  padding: 10px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  background-color: red;
+  border: 1px solid black;
+  padding: 10px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: orange;
+  border: 1px solid black;
+  width: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-top: 0%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bigBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.bigBox {
+  background-color: red;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
